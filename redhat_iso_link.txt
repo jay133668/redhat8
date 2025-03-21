@@ -1,0 +1,4 @@
+
+redhat dl link:
+https://developers.redhat.com/content-gateway/file/rhel/Red_Hat_Enterprise_Linux_8.10/rhel-8.10-x86_64-boot.iso
+https://developers.redhat.com/content-gateway/file/rhel/Red_Hat_Enterprise_Linux_8.10/rhel-8.10-x86_64-dvd.iso
