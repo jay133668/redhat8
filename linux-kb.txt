@@ -1,0 +1,6 @@
+
+# 過濾 ipv4 listening port
+ss -4 -nutlp  
+
+# 過濾OS 上2位以上listening 的 port, 並排序
+ss -nutlp | egrep -i listen | egrep -o ":[0-9]{2,} "  | sed "s/://g" | sort  | uniq | sort -h
